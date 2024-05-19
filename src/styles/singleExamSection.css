@@ -1,0 +1,33 @@
+article.mobileExams article.mobileExams-row img {
+    width: 2rem;
+    margin-top: 5px;
+}
+article.mobileExams article.singleExamLine {
+    background-color: #F8F5FF;
+    padding: 1.5rem 0.8rem;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999;
+}
+article.mobileExams article.mobileExams-row {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    column-gap: 1rem;
+}
+
+article.mobileExams article.mobileExams-row h2 {
+    font-size: 1.2rem;
+}
+article.mobileExams  article.singleExamLine article.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+article.mobileExams article.singleExamLine article.button button {
+    padding: 0.625rem 2.5rem;
+    border-radius: 2.5rem;
+    background: #082567;
+    border: none;
+    color: #fff;
+    margin-block: 1.8rem;
+}

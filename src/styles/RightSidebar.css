@@ -1,0 +1,112 @@
+.calendarside-container {
+  height: 53vh;
+  width: 100%;
+  background-color: #fff;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  overflow: auto !important;
+position: relative;
+  right: 50px;
+  top: 430px;
+  border-radius: 20px;
+  margin: 2rem;
+}
+
+
+
+.calendarside-container .recent-events {
+  margin-top: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.event {
+  width: 100%;
+  height: 12vh;
+  background-color: green;
+}
+
+.recent-events h3 {
+  color: #303972;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.recent-exams > span {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: #a098ae;
+}
+
+.recent-exams > ul {
+  list-style: none;
+  padding-top: 0.5rem;
+}
+
+.recent-exams > ul > li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #a098ae;
+}
+.recent-exams > ul > li > h4 {
+  color: #303972;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.recent-exams > ul > li > p {
+  color: #a098ae;
+  font-size: 0.8rem;
+}
+.recent-exams > ul > li > span {
+  color: #f93333;
+  font-size: 0.8rem;
+}
+
+.calendarside-container > button {
+  border-radius: 40px;
+  background-color: rgba(77, 68, 181, 0.1);
+  border: none;
+  padding: 1rem;
+  color: #4d44b5;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.calendarside-container .recent-schedule-button {
+  width: 100% !important;
+  border-radius: 40px;
+  background-color: rgba(77, 68, 181, 0.1);
+  border: none;
+  padding: 1rem;
+  color: #4d44b5;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+/*Mobile version*/
+@media all and (max-width: 1250px) {
+  .calendarside-container {
+    padding: 2rem 0.5rem;
+  }
+}
+
+@media all and (max-width: 1150px) {
+  .recent-students > ul > li > p {
+    gap: 0.5rem;
+    font-size: 0.8rem;
+  }
+  .recent-students > ul > li > p > .avatar-container {
+    width: 40px;
+    height: 40px;
+  }
+  .recent-students > ul > li > .mail-icon {
+    width: 40px;
+    height: 40px;
+  }
+}

@@ -1,0 +1,104 @@
+.students-navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+.students-navbar .admin-container {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.actions-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.students-container .single-card {
+    background-color: #fff;
+    flex-basis: 16rem;
+    flex-shrink: 1;
+    flex-grow: 1;
+    padding: 2rem;
+    border-radius: 20px;
+    text-align: center;
+}
+.students-container .cards-main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.students-container .single-card .icon-container {
+    width: 2rem;
+    aspect-ratio: 1;
+    background-color: #303972;
+    border-radius: 40px;
+    padding: 5px;
+}
+.students-container .single-card .icon-container img {
+    max-width: 100%;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+.students-container .single-card .contact-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+}
+.students-container .single-card *:not(.contact-icons *) {
+    margin-bottom: 1rem;
+}
+.students-container .single-card .avatar-container {
+    width: 120px;
+    margin: auto;
+}
+.students-container .single-card .avatar-container img {
+    max-width: 100%;
+    margin: auto;
+}
+.students-container .single-card span {
+    width: 100%;
+    text-align: right;
+}
+.students-container .actions-container {
+    margin-bottom: 1rem;
+}
+.students-container .actions-container .search-container {
+    flex-basis: 20rem;
+}
+.students-container .actions-container .search-container input {
+    width: 100%;
+    padding: 5px;
+    border: none;
+}
+.btn-container {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    width: 500px;
+}
+
+.btn-container a {
+    background-color: transparent;
+    border-radius: 40px;
+    border: 2px solid #082567;
+    width: 50%;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #082567;
+}
+
+.btn-container .btn-invert {
+    background-color: #082567;
+    color: #fff;
+}
+
+.btn-container>a>img {
+    margin-inline: 0.5rem;
+    width: 30px;
+}

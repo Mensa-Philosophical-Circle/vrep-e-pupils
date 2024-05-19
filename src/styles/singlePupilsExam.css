@@ -1,0 +1,55 @@
+article.exam {
+  width: calc(100% / 3 - 10px);
+  padding: 1rem;
+  border-radius: 1.25rem;
+  background: #fff;
+  box-shadow: 0px 4px 12px 0px rgba(8, 37, 103, 0.08);
+  margin: 24px 0 24px 0;
+}
+
+article.exam img {
+  width: 1rem;
+}
+
+article.exam h3 {
+   margin-bottom: 20px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.exam-status-label {
+  font-size: 14px;
+  padding: 10px;
+  border-radius: 20px;
+  color: #fff;
+  font-weight: 400;
+}
+
+article.exam p {
+  margin-bottom: 18px;
+}
+
+article.exam .exam-card-start-btn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+article.exam p.row {
+  display: flex;
+  column-gap: 5px;
+  align-items: center;
+}
+article.exam .red-txt {
+  color: #f93333;
+}
+
+article.exam button {
+  border-radius: 2.5rem;
+  background: #082567;
+  border: none;
+  padding: 0.6rem 1.5rem;
+  color: #fff;
+}

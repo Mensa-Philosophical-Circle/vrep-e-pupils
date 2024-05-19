@@ -1,0 +1,76 @@
+@import 'typeface-poppins'; 
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  /* scrollbar-width: none !important; */
+  -ms-overflow-style: none !important;
+
+}
+/* @layer base {
+  @font-face {
+    font-family: 'Poppins';
+    src: url("https://fonts.googleapis.com/css2?family=Poppins&display=swap") ;
+  }
+} */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Poppins","Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+   background-color: #F3F3FF;
+}
+
+::-webkit-scrollbar {
+  background-color:#D4DAEE;
+  width: 0;
+  height: 100%;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-track {
+  border-radius: 0;
+  background: #D4DAEE;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #8599DD;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #8599DD;
+  border-radius: 10px;
+  height: 20px;
+  
+}
+
+body ::-webkit-scrollbar {
+  background-color:#D4DAEE;
+  width: 12px;
+  height: 100%;
+  border-radius: 10px;
+}
+body ::-webkit-scrollbar-track {
+  border-radius: 0;
+  background: #D4DAEE;
+  border-radius: 10px;
+}
+body ::-webkit-scrollbar-thumb {
+  background: #8599DD;
+  border-radius: 10px;
+}
+body ::-webkit-scrollbar-thumb:hover {
+  background: #8599DD;
+  border-radius: 10px;
+  height: 20px;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

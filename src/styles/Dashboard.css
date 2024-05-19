@@ -1,0 +1,268 @@
+.dashboard-section {
+  background-color: #F3F3FF;
+}
+
+
+.dashboard-main {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  width: 80%;
+  margin-left: 20%;
+  background:#F3F3FF;
+  
+}
+
+
+.main-section {
+  background: #F3F3FF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem;
+  width: 100%;
+  float: right;
+}
+
+.main-section > nav {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  align-items: center;
+}
+
+.main-section > nav > h3 {
+  font-size: 2.25rem;
+  color: #303972;
+  font-weight: 700;
+}
+
+.main-section > nav > .search-container {
+  position: relative;
+  color: #4d44b5;
+}
+
+.main-section > nav > .search-container > input {
+  height: 60px;
+  border: none;
+  background-color: #fff;
+  width: 350px;
+  border-radius: 40px;
+  padding: 1rem 1.5rem;
+}
+
+.main-section > nav > .search-container > img {
+  position: absolute;
+  top: 25%;
+  left: 1rem;
+}
+
+.main-section > nav > .search-container {
+  height: 60px;
+}
+
+.dashboard-side-navbar {
+  width: 160%;
+  height: 79px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+border-radius: 10px;
+}
+.dashboard-side-navbar nav h3 {
+  display: flex;
+  align-items: center;
+  color: #405588;
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding-left: 2rem;
+}
+.dashboard-side-navbar-title {
+  width: 17%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 2rem;
+  
+}
+
+.dashboard-side-navbar-title p {
+  font-size: 16px;
+  color: #082567;
+  font-weight: 600;
+}
+
+.dashboard-side-navbar-title span {
+  color: #a098ae;
+  font-size: 14px;
+}
+.dashboard-photo-circle {
+  width: 48px;
+  height: 47.61px;
+  background: #c1bbeb;
+  border: #4d44b5 4px solid;
+  border-radius: 50%;
+  
+}
+
+.teacher-dashboard-header {
+  display: flex;
+  row-gap: 2rem;
+  justify-content: space-between;
+  background-color: #405588;
+  border-radius: 20px;
+  padding: 5rem 2rem;
+  width: 16
+  
+  
+  
+  0%;
+  margin-top: 2rem;
+}
+
+.teacher-dashboard-header div {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.teacher-dashboard-header-inside {
+  display: flex;
+  flex-direction: column;
+}
+
+.teacher-dashboard-header .dashboard-link {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  text-decoration: none;
+  color: #303972;
+  font-weight: 600;
+}
+
+.teacher-dashboard-header .student-icon {
+  background-color: #4d44b5;
+}
+
+.teacher-dashboard-header .teacher-icon {
+  background-color: #fb7d5b;
+}
+
+.teacher-dashboard-header .event-icon {
+  background-color: #fcc43e;
+}
+
+.event-icon,
+.student-icon,
+.teacher-icon {
+  border-radius: 50%;
+  padding: 10px;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.teacher-dashboard-header > div > p {
+  position: relative;
+  color: #7e7e7e;
+  font-size: 1.125rem;
+  margin: 0;
+}
+.teacher-dashboard-header>div>p.std-name-txt {
+  color: var(--color-text, #303972);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.teacher-dashboard-header div p span {
+  color: #4d4d4d;
+  font-size: 2rem;
+  display: block;
+  font-weight: 700;
+  margin-top: 5px;
+  display: block !important;
+}
+
+.events-table {
+  margin-top: 3rem;
+  background-color: #fff;
+  border-radius: 20px;
+  width: 100%;
+}
+
+.events-table > div {
+  color: #fff;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  background-color: #082567;
+  padding: 1rem 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.events-table > div > h3 {
+  font-size: 1rem;
+}
+
+.events-table > div > p {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.events-table > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.events-table > ul > li {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 3rem;
+  border-bottom: 1px solid #a098ae;
+}
+table td {
+  text-transform: uppercase;
+}
+.teacher-dashboard-header>div>p>span.std-id-txt {
+    font-size: 0.8rem;
+    font-weight: 700;
+    line-height: normal;
+}
+.text {
+  width: 122%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2rem;
+
+}
+/*Mobile version*/
+@media all and (max-width: 1250px) {
+  .main-section {
+    padding: 3rem 1rem;
+  }
+}
+
+@media all and (max-width: 1100px) {
+  .main-section > nav > h3 {
+    font-size: 2rem;
+  }
+  .main-section > nav > .search-container > input {
+    width: 300px;
+  }
+  .teacher-dashboard-header {
+    padding: 1rem;
+  }
+  .teacher-dashboard-header > div {
+    gap: 0.5rem;
+  }
+}
